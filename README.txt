@@ -1,5 +1,4 @@
-
-#  Semantic Differences Between Twitter-Based Expressions of Anxiety and Depression
+# Semantic Differences Between Twitter-Based Expressions of Anxiety and Depression
 
 This project investigates how symptoms of anxiety and depression are linguistically expressed on Twitter using natural language processing (NLP) and supervised machine learning models. It aims to support early detection and ethically responsible AI in digital mental health platforms.
 
@@ -7,7 +6,7 @@ Developed as part of a BSc dissertation at the University of Winchester, the pro
 
 ---
 
-##  Project Objectives
+## Project Objectives
 
 - Analyse the semantic and temporal characteristics of social media posts related to anxiety, depression, and suicidal ideation.
 - Develop AI models, including both classical and transformer-based classifiers, to detect mental health-related distress using text data from Reddit and Twitter.
@@ -17,21 +16,18 @@ Developed as part of a BSc dissertation at the University of Winchester, the pro
 
 ---
 
-##  Project Structure
-
-```
+## Project Structure
 mentalhealth_ai/
-├── Data Cleaning + MentalBERT Model.ipynb        # Preprocessing and transformer training
-├── Logistic Regression + TF-IDF.ipynb            # Classical ML baseline
+├── Data Cleaning + MentalBERT Model.ipynb # Preprocessing and transformer training
+├── Logistic Regression + TF-IDF.ipynb # Classical ML baseline
 ├── MentalBERT + Post Processing Adjustments.ipynb# Final model tweaks and performance tuning
-├── Random Forest + TF-IDF for Multi-label.ipynb  # Classical ensemble model
+├── Random Forest + TF-IDF for Multi-label.ipynb # Classical ensemble model
 ├── SVM + TF-IDF for Multi-label Mental Health.ipynb # SVM classifier
-├── README.md                                     # Project overview and documentation
-```
+├── README.md # Project overview and documentation
 
 ---
 
-##  Models Implemented
+## Models Implemented
 
 | Model              | Type          | Description |
 |-------------------|---------------|-------------|
@@ -42,26 +38,24 @@ mentalhealth_ai/
 
 ---
 
-##  Project Results
+## Project Results
 
 - **MentalBERT** achieved the highest macro-F1 score across datasets.
 - Post-processing boosted recall, especially for high-risk labels like *suicidal ideation*.
 - Temporal and linguistic variations between Reddit and Twitter were visualised using Power BI.
 
-
 ---
 
-##  Data Sources
+## Data Sources
 
 - **Reddit**: r/Depression, r/Anxiety, r/SuicideWatch, r/CasualConversations (via AcademicTorrents)
 - **Twitter**: Kaggle mental health tweet datasets, including suicidal ideation posts
 
 > *Note: Raw data is not included due to licensing restrictions.*
 
-
 ---
 
-##  Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python 3.10
 - HuggingFace Transformers
@@ -69,9 +63,9 @@ mentalhealth_ai/
 - Pandas / Numpy
 - PyTorch
 
-
 ---
 
 ## Citation
 
 > Aamir, Z. (2025). *AI-Driven Detection of Mental Health Signals on Social Media: Semantic, Temporal, and Ethical Perspectives*. Undergraduate Dissertation, University of Winchester.
+
