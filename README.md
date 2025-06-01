@@ -18,12 +18,17 @@ Developed as part of a BSc dissertation at the University of Winchester, the pro
 
 ## Project Structure
 mentalhealth_ai/
-├── Data Cleaning + MentalBERT Model.ipynb # Preprocessing and transformer training
-├── Logistic Regression + TF-IDF.ipynb # Classical ML baseline
-├── MentalBERT + Post Processing Adjustments.ipynb# Final model tweaks and performance tuning
-├── Random Forest + TF-IDF for Multi-label.ipynb # Classical ensemble model
-├── SVM + TF-IDF for Multi-label Mental Health.ipynb # SVM classifier
-├── README.md # Project overview and documentation
+- Data Cleaning + MentalBERT Model.ipynb: Handles data preprocessing and transformer model training.
+
+- Logistic Regression + TF-IDF.ipynb: Implements a classical machine learning baseline using logistic regression.
+
+- MentalBERT + Post Processing Adjustments.ipynb: Applies final tweaks and performance tuning to the MentalBERT model.
+
+- Random Forest + TF-IDF for Multi-label.ipynb: Uses a classical ensemble approach with Random Forest for multi-label classification.
+
+- SVM + TF-IDF for Multi-label Mental Health.ipynb: Employs an SVM classifier for multi-label mental health prediction.
+
+- README.md: Provides an overview of the project and documentation.
 
 ---
 
